@@ -1,0 +1,60 @@
+{
+  "_from": "@types/oracledb@^4.2.0",
+  "_id": "@types/oracledb@4.2.1",
+  "_inBundle": false,
+  "_integrity": "sha512-JUN+PcxR4iOP9HEgMReOEOVvpD9Pf0VyA6naxDzMp8kAveCuxlhAY01WPvf2NbJeV7uSP9ARk/H5Oijvau93hA==",
+  "_location": "/@types/oracledb",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@types/oracledb@^4.2.0",
+    "name": "@types/oracledb",
+    "escapedName": "@types%2foracledb",
+    "scope": "@types",
+    "rawSpec": "^4.2.0",
+    "saveSpec": null,
+    "fetchSpec": "^4.2.0"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@types/oracledb/-/oracledb-4.2.1.tgz",
+  "_shasum": "76fa8099443c4ee1aa271a9c045a398e6b12aa7e",
+  "_spec": "@types/oracledb@^4.2.0",
+  "_where": "D:\\Projects\\Client\\0 Omniyat\\SubContract\\SchedulerGeneric\\9 Node Scheduler\\Application\\Node",
+  "bugs": {
+    "url": "https://github.com/DefinitelyTyped/DefinitelyTyped/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Richard Natal",
+      "url": "https://github.com/Bigous"
+    },
+    {
+      "name": "Connor Fitzgerald",
+      "url": "https://github.com/connorjayfitzgerald"
+    }
+  ],
+  "dependencies": {
+    "@types/node": "*",
+    "dotenv": "^8.2.0"
+  },
+  "deprecated": false,
+  "description": "TypeScript definitions for oracledb",
+  "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped#readme",
+  "license": "MIT",
+  "main": "",
+  "name": "@types/oracledb",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+    "directory": "types/oracledb"
+  },
+  "scripts": {},
+  "typeScriptVersion": "3.2",
+  "types": "index.d.ts",
+  "typesPublisherContentHash": "fd1f6e5dad8131d2a0ff8ec736ad35ccfa1c21690c9e0dcb6d66c6541ad98310",
+  "version": "4.2.1"
+}

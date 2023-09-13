@@ -1,0 +1,28 @@
+{
+  "apps": [
+    {
+      "name": "node-TSA-UAT-reports",
+      "script": "dist/server.js",
+      "log_date_format": "YYYY-MM-DD HH:mm",
+      "env": {
+        "NODE_ENV": "development",
+        "PORT": 9000,
+        "DB_CONNECTION_STRING": "132.145.133.41:1521/TESTDB_iad1z8.sub03200955430.salvnc.oraclevcn.com",
+        "DB_PASSWORD": "SAltest_#123",
+        "DB_USER": "C##TEST",
+        "DB_POOL_MIN": 15,
+        "DB_POOL_MAX": 20,
+        "DB_POOL_INC": 5,
+        "UV_THREADPOOL_SIZE": 20,
+        "BASE_URL": "/api/sync",
+        "MAIL_PORT":587,
+        "MAIL_HOST":" ",
+        "MAIL_SCHEDULER_NAME":"Sync Mail Notification",
+        "MAIL_USERNAME":" ",
+        "MAIL_PASSWORD":" ",
+        "MAIL_NOTIFICATION_HOUR":7,
+        "MAIL_NOTIFICATION_MIN":0
+      }
+    }
+  ]
+}

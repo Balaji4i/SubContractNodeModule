@@ -1,0 +1,25 @@
+{
+  "apps": [
+    {
+      "name": "node-subcont-scheduler",
+      "script": "dist/server.js",
+      "env": {
+        "NODE_ENV": "development",
+        "PORT": 9008,
+        "DB_CONNECTION_STRING": "130.61.109.253:1521/omnipdb1.sub08081309100.omnivcn1.oraclevcn.com",
+        "DB_PASSWORD": "xX_sU8_c0nt",
+        "DB_USER": "XXSUBCONT",
+        "DB_POOL_MIN": 10,
+        "DB_POOL_MAX": 20,
+        "DB_POOL_INC": 2,
+        "SOAP_URL": "https://ejds.fa.em2.oraclecloud.com/xmlpserver/services/PublicReportService?wsdl",
+        "SOAP_USER": "Projects",
+        "SOAP_PASSWORD": "welcome123",
+        "BASE_URL": "/api/subcontract"
+      },
+      "env_production": {
+        "NODE_ENV": "production"
+      }
+    }
+  ]
+}
